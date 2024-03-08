@@ -260,7 +260,6 @@ main #tools .multi-tools{
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    /* background-color: aqua; */
 }
 
 main #tools .multi-tools h2{
@@ -268,12 +267,10 @@ main #tools .multi-tools h2{
 }
 
 main #tools .multi-tools img{
-    /* background-color: red; */
     width: 50px;
 }
 
 main #tools .multi-tools:nth-child(3) img{
-    /* background-color: red; */
     width: 100px;
 }
 
