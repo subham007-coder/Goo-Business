@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+}
+
+main nav{
+    background-color: #2874F0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+}
+
+main nav img{
+    width: 80px;
+}
+
+main #hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+
+main #hero .left{
+    /* background-color: red; */
+    width: 50%;
+    height: 60%;
+    padding: 10px 20px;
+}
+
+main #hero .left .big-text{
+    /* background-color: #2d5ead; */
+    width: 100%;
+    height: 60%;
+}
+
+main #hero .left .small-text{
+    /* background-color: #2d5ead; */
+    width: 100%;
+    height: 60%;
+}
+
+main #hero .left .small-text h4{
+    font-size: 2vw;
+}
+
+main #hero .left .big-text h2{
+    font-size: 3.5vw;
+}
+
+main #hero .right{
+    /* background-color: #2874F0; */
+    padding: 10px 10px;
+    width: 70%;
+    height: 70%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+main #hero .right img{
+    width: 70%;
+    height: 70%;
+}
+
+main #register{
+    padding: 10px;
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+main #register .from{
+    padding: 10px;
+    width: 60%;
+    margin-left: 50px;
+    background-color: rgba(237, 236, 235, 0.336);
+    border: 1px solid rgba(0, 0, 0, 0.326);
+    border-radius: 10px;
+}
+
+main #register .from h1{
+    text-align: center;
+    font-size: 2.5vw;
+    color: #2874F0;
+    text-decoration: underline;
+}
+
+main #register .rulls{
+    padding: 20px;
+    width: 40%;
+    /* background-color: #2874F0; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+main #register .rulls .info{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+main #register .rulls .info .logo{
+    /* background-color: aqua; */
+    font-size: 3vw;
+    padding: 0 10px;
+}
+
+
+main #register .rulls .info .text h3{
+    font-size: 2vw;
+}
+
+main #register .rulls p{
+    font-size: medium
+}
+
+main #employbox{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+main #employbox .leftImg{
+    padding: 10px 20px;
+    /* background-color: #2874F0; */
+    width: 70%;
+    height: 70%;
+}
+
+main #employbox .leftImg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+
+}
+
+main #employbox .rightText{
+    /* background-color: #f02828; */
+    width: 50%;
+}
+
+main #employbox .rightText .heding h1{
+    padding: 10px;
+    text-align: center;
+     font-size: 3vw;
+}
+
+main #employbox .rightText .subtext h4{
+    padding: 10px;
+    font-size: 2vw;
+}
+
+main #ouragenda{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main #ouragenda h1{
+    font-size: 3vw;
+}
+
+main #ouragenda h4{
+    width: 100%;
+    /* padding: 0 80px; */
+    text-align: center;
+}
+
+main .hedder{
+    padding: 0 20px;
+    font-size: 4vw;
+}
+
+main .hedder h1{
+    padding: 0 20px;
+    font-size: 4vw;
+}
+
+main #experienceBox{
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 10px;
+}
+
+main #experienceBox .allproof{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+    /* background-color: red; */
+    padding: 0 30px;
+    width: 50%;
+    height: 50%;
+    margin-top: 50px;
+}
+
+main #experienceBox .allproof .checkBox{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+main #experienceBox .allproof .checkBox h4{
+    /* line-height: 28px; */
+    font-size: 2vw;
+}
+
+main #experienceBox .imagebox{
+    display: flex;
+    align-items: start;
+    margin-top: 0;
+    /* background-color: #2874F0; */
+    width: 40%;
+    height: 50%;
+}
+
+main #experienceBox .imagebox img{
+    width: 100%;
+    height: 100%;
+}
+
+main #tools{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* background-color: #2874F0; */
+    justify-content: space-around;
+}
+
+main #tools .multi-tools{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    /* background-color: aqua; */
+}
+
+main #tools .multi-tools h2{
+    font-size: 2vw;
+}
+
+main #tools .multi-tools img{
+    /* background-color: red; */
+    width: 50px;
+}
+
+main #tools .multi-tools:nth-child(3) img{
+    /* background-color: red; */
+    width: 100px;
+}
+
+main #last-para{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+main #last-para .heding-last{
+    padding: 0 80px;
+    text-align: center;
+}
+
+main #last-para .heding-last h2{
+    /* padding: 0 50px; */
+    font-size: 3vw;
+    color: rgba(0, 0, 0, 0.692);
+}
+
+main #last-para .button button{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0 10px;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+
+    background-color: #2874F0;
+    font-size: 3vw;
+    border-radius: 10px;
+    color: aliceblue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+main #last-para .red-text h4{
+    color: rgb(230, 71, 97);
+    font-size: 3vw;
+}
+
+main footer{
+    width: 100%;
+    margin-top: 50px;
+    background-color: #4240409f;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+main footer .fstpart{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+main footer .fstpart a{
+    color: #fff;
+    text-decoration: none;
+}
+
+main footer .fstpart img{
+    width: 100px;
+}
+
+main footer .scndpart{
+    color: #fff;
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+main footer .scndpart .icons{
+    display: flex;
+    gap: 10px;
+    font-size: 2vw;
+    cursor: pointer;
+}
+
+main footer .scndpart a{
+    color: #fff;
+    text-decoration: none;
+}

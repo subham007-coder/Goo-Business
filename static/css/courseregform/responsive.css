@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 620px) {
+    main #hero{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 80px;
+        flex-direction: column;
+    }
+    main #hero .right {
+        justify-content: start;
+    }
+
+    main #register {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    main #employbox {
+        flex-direction: column;
+    }
+
+    main #experienceBox{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main #register .from {
+        margin-left: 0;
+        width: 80%;
+    }
+
+    main #register .rulls .info .text h3{
+        font-size: 3vw;
+    }
+
+    main #register .rulls {
+        width: 80%;
+    }
+}
